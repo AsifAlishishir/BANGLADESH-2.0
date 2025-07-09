@@ -111,8 +111,271 @@ nav{
     margin-bottom: 12px;
 }
 
-.pillar-card-content p{
+.pillar-card-content p, .vision-card > p, .quote p, .news > p{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
+}
+
+.vision-card{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.vision-card h1, .news h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.vision-card-container{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0px;
+}
+
+.vision-card-content{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+.vision-card-content h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.vision-card-content p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.vision-card-content button{
+    background-color: rgba(84, 144, 245, 1);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.quote{
+    max-width: 1280px;
+    margin: 0px auto 80px;
+}
+
+.quote-content{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+}
+
+
+.quote-content h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.news{
+    max-width: 1280px;
+    margin: 0px auto 80px;
+}
+
+.news-container{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.news-content h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.news-content .time{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-content button{
+    background-color: rgba(0, 106, 80, 1);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.donate{
+    max-width: 1280px;
+    margin: 0px auto 80px;
+    text-align: center;
+}
+
+.donate > h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.donate > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.taka-amount{
+    display: flex;
+    gap: 24px;
+    max-width: 1071px;
+    margin: 32px auto;
+
+}
+
+.taka-amount button{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-content >button, .input-box button{
+    background-color: rgba(0, 106, 80, 1);
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+}
+
+.taka-amount button:active{
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+}
+
+input{
+    border: none;
+    
+    padding: 20px 40px;
+    
+}
+
+input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight:400;
+    text-align: center;
+}
+
+.subscribe{
+    max-width: 1280px;
+    margin: 0px auto 80px;
+}
+
+.subscribe-content{
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    border-radius: 24px;
+}
+
+.subscribe-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.subscribe-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+    
+}
+
+.input-box input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 18px 20px;
+}
+
+footer{
+    background-color: white;
+    padding: 50px 160px;
+}
+
+.footer-content{
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.footer-content hr{
+    color: rgba(175, 153, 153, 0.1);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 32px;
+}
+
+button{
+    cursor: pointer;
 }
